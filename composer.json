@@ -9,11 +9,8 @@
         "font"
     ],
     "type": "magento2-module",
-    "version": "2.0.0-dev",
+    "version": "2.0.0",
     "license": "MIT",
-    "require": {
-        "swissup/core": "*"
-    },
     "autoload": {
         "files": [ "registration.php" ],
         "psr-4": {
