@@ -73,7 +73,7 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
     public function getRemoteAsset()
     {
         $url = self::ASSET_REMOTE_URL;
-        $type = 'script';
+        $type = 'js';
         $asset = $this->getBaseAsset();
         $asset->addData([
             'url'  => $url,
